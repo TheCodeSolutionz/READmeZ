@@ -14,17 +14,18 @@
 
 ## Table of Contents
 
-1. [Part 1 — HTML Foundations](#part-1---html-foundations)
-
-   * [Lesson 1.1 — What is HTML?](#lesson-11---what-is-html)
-   * [Lesson 1.2 — Tags & Attributes](#lesson-12---tags--attributes)
-   * [Lesson 1.3 — Block vs Inline Elements](#lesson-13---block-vs-inline-elements)
-   * [Lesson 1.4 — Lists, Links & Images](#lesson-14---lists-links--images)
-2. [Part 2 — Styling Secrets (CSS Basics)](#part-2---styling-secrets-css-basics)
-3. [Part 3 — Interactive Elements](#part-3---interactive-elements)
-4. [Part 4 — Advanced Touches](#part-4---advanced-touches)
-5. [Capstone — Personal Portfolio Project](#capstone---personal-portfolio-project)
-6. [Cheatsheets & Export Guide](#cheatsheets--export-guide)
+1.  **[Part 1 — HTML Foundations](https://www.google.com/search?q=%23part-1---html-foundations)**
+      * [Lesson 1.1 — What is HTML?](https://www.google.com/search?q=%23lesson-11---what-is-html)
+      * [Lesson 1.2 — Tags & Attributes](https://www.google.com/search?q=%23lesson-12---tags--attributes)
+      * [Lesson 1.3 — Block vs Inline Elements](https://www.google.com/search?q=%23lesson-13---block-vs-inline-elements)
+      * [Lesson 1.4 — Lists, Links & Images](https://www.google.com/search?q=%23lesson-14---lists-links--images)
+2.  **[Part 2 — Styling Secrets (CSS Basics)](https://www.google.com/search?q=%23part-2---styling-secrets-css-basics)**
+3.  **[Part 3 — Interactive Elements](https://www.google.com/search?q=%23part-3---interactive-elements)**
+      * [Forms](https://www.google.com/search?q=%23forms)
+      * [Media & Responsive Images](https://www.google.com/search?q=%23media--responsive-images)
+4.  **[Part 4 — Advanced Touches](https://www.google.com/search?q=%23part-4---advanced-touches)**
+5.  **[Capstone — Personal Portfolio Project](https://www.google.com/search?q=%23capstone---personal-portfolio-project)**
+6.  **[Cheatsheets & Export Guide](https://www.google.com/search?q=%23cheatsheets--export-guide)**
 
 ---
 
