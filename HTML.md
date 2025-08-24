@@ -1,3 +1,5 @@
+<img width="1024" height="559" alt="Image" src="https://github.com/user-attachments/assets/8d6a323e-89e3-428a-8bfa-835ea8ef0aed" />
+
 # HTML Harmony — Unlock Web Magic in Hours
 
 > **Quick, practical lessons you can open, edit, and download as PDF / DOCX / Markdown.**
