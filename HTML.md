@@ -1,28 +1,50 @@
 <img width="1024" height="559" alt="Image" src="https://github.com/user-attachments/assets/8d6a323e-89e3-428a-8bfa-835ea8ef0aed" />
 
-# HTML Harmony — Unlock Web Magic in Hours
+<!--
+Professional, human-first Markdown handout for "HTML Harmony — Part 1: HTML Foundations".
+This document is intentionally focused ONLY on HTML (no CSS, no JS) and written in a storytelling, motivational style.
+-->
 
-## Table of Contents
-1. [Part 1 — HTML Foundations](#part-1---html-foundations)
-   - [Lesson 1.1 — What is HTML?](#lesson-11---what-is-html)
-   - [Lesson 1.2 — Tags & Attributes](#lesson-12---tags--attributes)
-   - [Lesson 1.3 — Block vs Inline Elements](#lesson-13---block-vs-inline-elements)
-   - [Lesson 1.4 — Lists, Links & Images](#lesson-14---lists-links--images)
-2. [Part 2 — Styling Secrets (CSS Basics)](#part-2---styling-secrets-css-basics)
-3. [Part 3 — Interactive Elements](#part-3---interactive-elements)
-4. [Part 4 — Advanced Touches](#part-4---advanced-touches)
-5. [Capstone — Personal Portfolio Project](#capstone---personal-portfolio-project)
-6. [Cheatsheets & Export Guide](#cheatsheets--export-guide)
+# HTML Harmony — Part 1: Foundations
+
+> *Unlock web magic fast — build meaningful pages that people understand and remember.*
 
 ---
 
-# Part 1 — HTML Foundations
+## Welcome — Why this lesson matters
+
+You’re not learning HTML just to write tags. You’re learning the vocabulary of the web — how ideas, structure, and intent become visible to people around the world.
+
+This handout guides you through the absolute essentials of HTML with clarity, real examples, and short practice tasks that actually stick. Read it like a short conversation with an excellent teacher: warm, precise, and useful.
+
+**What you’ll achieve by the end:**
+
+* A clear mental model of what HTML does and why it exists
+* Hands-on examples you can copy and run immediately
+* A final HTML-only mini-project that proves you’ve got it
+
+---
+
+## Quick roadmap
+
+1. What is HTML? — The essentials.
+2. Tags & attributes — The building blocks.
+3. Block vs inline — How the page lays out itself.
+4. Lists, links & images — Real content structure.
+
+Each section contains a short explanation, a copy-paste example, and a tiny task.
+
+---
 
 ## Lesson 1.1 — What is HTML?
 
-**Short:** HTML defines the structure of a webpage.
+**One-line:** HTML defines the structure and meaning of web content.
 
-**Example**
+Think of HTML as the skeleton of a page: it tells browsers and assistive tech what the content *is* (a heading, a paragraph, an image), not how it should look.
+
+**Core idea:** Structure first → style later.
+
+**Example (copy to a file named `index.html` and open in your browser):**
 
 ```html
 <!doctype html>
@@ -33,235 +55,124 @@
   </head>
   <body>
     <h1>Hello, world!</h1>
-    <p>This is a paragraph.</p>
+    <p>This is a paragraph of friendly text that explains who you are.</p>
   </body>
 </html>
 ```
 
-**Mini Task:** Create `index.html` containing a heading, two paragraphs, and an unordered list of three favorite foods.
+**Why this matters:** The `<!doctype html>` and `<html lang>` help browsers and screen readers behave correctly — they’re accessibility and compatibility basics.
 
-**Suggested image (search):** `lego bricks web analogy`, `html structure diagram`
+**Mini Task (10 minutes):**
+Create `index.html` with a main heading, two short paragraphs, and save it. Open it in your browser and say out loud what each tag means.
 
 ---
 
 ## Lesson 1.2 — Tags & Attributes
 
-**Short:** Tags wrap content; attributes add information.
+**One-line:** Tags define elements; attributes give them extra data.
 
-**Example**
+Tags are the nouns of HTML (`<p>`, `<img>`, `<a>`). Attributes are adjectives — they describe tags (`src`, `alt`, `href`). Use attributes to make elements useful and accessible.
+
+**Example:**
 
 ```html
-<img src="cat.png" alt="Cute cat" width="300">
+<img src="cat.png" alt="A small orange cat curled on a blanket" width="300">
 ```
 
-**Mini Task:** Add an image to your page with a meaningful `alt` attribute.
+**Tip:** Always write a meaningful `alt` — it’s not optional. Describe the image’s purpose for someone who can’t see it.
 
-**Suggested image (search):** `mail envelope analogy attributes`, `html attributes illustration`
+**Mini Task (10 minutes):**
+Add an image to your `index.html`. Use a relevant `alt` describing the image’s content or purpose.
 
 ---
 
 ## Lesson 1.3 — Block vs Inline Elements
 
-**Short:** Block elements start on a new line; inline elements flow inside text.
+**One-line:** Block elements stack vertically; inline elements flow inside lines of text.
 
-**Examples**
+Block elements (like `<div>`, `<p>`, `<h1>`) create structure and sections. Inline elements (like `<a>`, `<span>`, `<strong>`) live inside lines and emphasize or link.
+
+**Examples:**
 
 ```html
-<p>This is a <span class="highlight">highlighted</span> word.</p>
-<div>This is a block element.</div>
+<p>This is a <span class="highlight">highlighted</span> word inside a paragraph.</p>
+<div>This is a block-level container — it starts on a new line.</div>
 ```
 
-**Mini Task:** Wrap a single word in a paragraph with `<span>` and add a class for styling.
+**Why this matters:** Choosing the right element improves readability and accessibility. Use `<p>` for paragraphs, `<h1>`–`<h6>` for headings, and `<span>` only for tiny in-line tweaks.
 
-**Suggested image (search):** `block vs inline html diagram`, `box model simple`
+**Mini Task (5–10 minutes):**
+Wrap one word in a paragraph with `<span>` and give it a `class` attribute (you won’t style it yet — we’re practicing structure).
 
 ---
 
 ## Lesson 1.4 — Lists, Links & Images
 
-**Short:** Build navigation and lists for content structure.
+**One-line:** Use lists and links to create navigation and readable sequences.
 
-**Examples**
+Lists are for grouped items. Links let people move through your site. Images are content or decoration — treat them differently.
+
+**Examples:**
 
 ```html
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
 <ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
 </ul>
-
-<a href="about.html">About</a>
 ```
 
-**Mini Task:** Create a `nav` using a `<ul>` with 3 links to `index.html`, `projects.html`, `contact.html`.
+**Accessibility note:** When links are read out of context, the label should still make sense. Prefer descriptive link text (e.g., `View my projects`) over `click here`.
 
-**Suggested image (search):** `simple navigation bar wireframe`, `html lists diagram`
+**Mini Task (10 minutes):**
+Add a `nav` with three links to `index.html`, `projects.html`, and `contact.html` to your `index.html` file.
 
 ---
 
-# Part 2 — Styling Secrets (CSS Basics)
+## Quick accessibility checklist (always do these)
 
-**Short:** Add visual design using CSS. Use an external stylesheet for projects.
-
-**Link CSS**
-
-```html
-<link rel="stylesheet" href="styles.css">
-```
-
-**Basic rules**
-
-```css
-/* styles.css */
-body { font-family: Arial, sans-serif; margin: 0; }
-.nav { display: flex; gap: 1rem; }
-#hero { padding: 3rem; background: linear-gradient(#fff,#f4f4f4); }
-```
-
-**Mini Task:** Create a hero section with a large heading, subtitle, and CTA button. Link `styles.css` and center the hero content.
-
-**Suggested image (search):** `hero section design example`, `landing page hero mockup`
+* Use `lang` on the `<html>` element.
+* Provide meaningful `alt` attributes for images.
+* Label form controls (we’ll cover forms briefly in the course, but keep labels in mind).
+* Keep headings in logical order (`<h1>` → `<h2>` → `<h3>`).
 
 ---
 
-# Part 3 — Interactive Elements
+## Small experiments (try these to learn fast)
 
-## Forms (short)
-
-```html
-<form action="/submit">
-  <label for="name">Name</label>
-  <input id="name" name="name" type="text" required>
-  <label for="message">Message</label>
-  <textarea id="message" name="message"></textarea>
-  <button type="submit">Send</button>
-</form>
-```
-
-**Mini Task:** Build a contact form with Name, Email, Message, and a Submit button. Ensure each input has a corresponding `<label>`.
-
-**Suggested image (search):** `contact form UI example`, `forms accessibility label`
+1. Open your `index.html`, edit a heading, save, refresh — observe instant feedback.
+2. Right-click → View Page Source — HTML you wrote is the same the browser sees.
+3. In the browser inspector, find your `<img>` tag and toggle the `alt` text — think about what screen reader users would hear.
 
 ---
 
-## Media & Responsive Images
+## Final HTML-Only Capstone Task (this proves you understand Part 1)
 
-**Short:** Use native elements for audio/video and `srcset` for responsive images.
+**Goal:** Build a simple, semantic `index.html` homepage that demonstrates everything above.
 
-```html
-<video controls>
-  <source src="intro.mp4" type="video/mp4">
-</video>
+**Requirements (HTML only — no CSS or JS):**
 
-<img src="hero.jpg" srcset="hero-small.jpg 480w, hero-large.jpg 1200w" sizes="(max-width:600px) 480px, 1200px" alt="Hero image">
-```
+* A valid `<!doctype html>` and `<html lang="en">` wrapper.
+* `<head>` with `<meta charset="utf-8">` and a meaningful `<title>`.
+* `<header>` that contains a `<nav>` with links to `index.html`, `projects.html`, and `contact.html`.
+* A main `<h1>` heading that introduces you or the site.
+* At least two paragraphs (`<p>`) that explain what the site or you do.
+* An unordered list (`<ul>`) of three favorite foods (or three skills) — each as `<li>`.
+* One image with a meaningful `alt` attribute.
+* A final `<footer>` with contact info displayed as plain text or a mailto link.
 
-**Mini Task:** Add a sample video and a responsive image to a page.
+**Bonus (still HTML only):**
 
-**Suggested image (search):** `responsive images srcset example`, `video element demo`
+* Add an `<article>` or `<section>` with a short project card using `<h3>`, an `<img>`, a `<p>`, and a link to details.
 
----
-
-# Part 4 — Advanced Touches
-
-**Short:** Make your site semantic, accessible, and fast.
-
-**Semantic layout**
-
-```html
-<header>...nav...</header>
-<main>...content...</main>
-<footer>...contacts...</footer>
-```
-
-**Accessibility checklist (quick)**
-
-* meaningful `alt` on images
-* `label` for form inputs
-* logical heading order
-* sufficient color contrast
-
-**Performance tips**
-
-* compress images (use WebP where suitable)
-* minify CSS and JS
-* defer non-critical scripts
-
-**Mini Task:** Convert your homepage to use `<header>`, `<main>`, and `<footer>` and add `alt` text for all images.
-
-**Suggested image (search):** `web accessibility icons`, `semantic html layout diagram`
+**Deliverable:** Save the file as `index.html`. Open it in your browser and test each link (they can point to separate files that don’t exist yet). When ready, submit your `index.html` file for review.
 
 ---
-
-# Capstone — Personal Portfolio Project
-
-**Goal:** Build a responsive multi-page portfolio. Use the steps below as checkpoints.
-
-### Project files (recommended)
-
-```
-/portfolio
-  /assets
-  index.html
-  about.html
-  projects.html
-  contact.html
-  styles.css
-```
-
-### Milestones
-
-1. Scaffold project folder and files.
-2. Implement responsive header & nav.
-3. Create hero + about section.
-4. Add projects grid with cards.
-5. Create a contact form.
-6. Polish: hover effects, transitions, mobile layout.
-
-### Example card
-
-```html
-<article class="project-card">
-  <img src="assets/project1.png" alt="Project 1 screenshot">
-  <h3>Project One</h3>
-  <p>Short description.</p>
-  <a href="projects/project1.html">Details</a>
-</article>
-```
-
-**Suggested image (search):** `portfolio website wireframe`, `project card layout example`
-
----
-
-# Cheatsheets & Export Guide
-
-## Quick Cheatsheet
-
-* HTML: `<!doctype html>`, `<head>`, `<title>`, `<h1>`–`<h6>`, `<p>`, `<a>`, `<img>`, `<ul>`, `<div>`
-* CSS: `display`, `margin`, `padding`, `box-sizing`, `flex`, `grid`
-* Accessibility: `alt`, `label`, keyboard focus, color contrast
-
-## Exporting this document
-
-* To export as **PDF** or **.docx**: use the editor's **File → Download** menu and select the desired format.
-* To get Markdown: copy the document text or download as `.md` if your editor supports it.
-
-## Image search hints (use these queries)
-
-* `lego bricks web analogy`
-* `html tags infographic`
-* `box model diagram simple`
-* `hero section mockup responsive`
-* `portfolio website wireframe`
-
----
-
-# Next steps I can do for you
-
-* Generate a ready-to-download `.docx` file with this content (I will create it for you).
-* Generate a GitHub-ready repo ZIP including `index.html`, `styles.css`, and asset placeholders.
-* Create SVG badge files for Gamification.
-
----
-
-*End of document — open the editor and use the File menu to download.*
