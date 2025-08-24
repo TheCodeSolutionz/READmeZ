@@ -2,18 +2,6 @@
 
 # HTML Harmony — Unlock Web Magic in Hours
 
-> **Quick, practical lessons you can open, edit, and download as PDF / DOCX / Markdown.**
-
----
-
-## How to use this file
-
-* Click any item in the **Table of Contents** to jump to the lesson.
-* Each lesson contains a short explanation, a code example, a **Mini Task**, and suggested image search queries you can use to find an illustration to place in your `.md` or `.docx`.
-* When ready, use the editor's **File → Download** menu to export as **PDF**, **.docx**, or copy the Markdown for your GitHub repo.
-
----
-
 ## Table of Contents
 
 ## Table of Contents
