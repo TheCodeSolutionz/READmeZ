@@ -3,8 +3,6 @@
 # HTML Harmony — Unlock Web Magic in Hours
 
 ## Table of Contents
-
-## Table of Contents
 1. [Part 1 — HTML Foundations](#part-1---html-foundations)
    - [Lesson 1.1 — What is HTML?](#lesson-11---what-is-html)
    - [Lesson 1.2 — Tags & Attributes](#lesson-12---tags--attributes)
